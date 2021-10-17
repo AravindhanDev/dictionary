@@ -1,0 +1,103 @@
+body {
+	font-family: Poppins, sans-serif;
+	background: #f2f2f2;
+	display: flex;
+	justify-content: center;
+	background-color: #f2f2f2;
+	background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+}
+
+.App {
+	margin-top: 2rem;
+	width: 20rem;
+	background-color: #fff;
+	padding: 1rem 2rem 2rem;
+	border-radius: 5px;
+}
+
+header {
+	text-align: center;
+	color: #444;
+}
+
+audio {
+	width: 100%;
+}
+
+input {
+	background-color: #f7f7f7;
+	font-size: 0.9rem;
+	padding: 0.8rem;
+	border-radius: 3px;
+	border: none;
+	border: 1px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all 0.2s;
+}
+
+input:hover {
+	border: 1px solid #f6d167;
+}
+
+input:focus {
+	border: none;
+	border-bottom: 2px solid #f6d167;
+	outline: none;
+}
+
+::placeholder {
+	color: rgb(146, 132, 132);
+}
+
+button {
+	padding: 0.7rem 1.5rem;
+	margin: 0 1rem;
+	background-color: #fff600;
+	border-radius: 6px;
+	border: none;
+	font-weight: 600;
+}
+
+strong {
+	color: #666;
+}
+
+.word,
+.phone {
+	margin: 1.3rem 0;
+	font-size: 1rem;
+	font-size: 0.9rem;
+}
+
+.origin,
+.def {
+	margin: 1.3rem 0;
+	line-height: 1.3;
+	font-size: 0.95rem;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.9rem;
+	font-weight: 600;
+	padding-top: 1rem;
+	color: #555;
+}
+
+@media (max-width: 400px) {
+	.App {
+		margin-top: 1rem;
+		width: 18rem;
+		padding: 1.2rem 1.7rem;
+	}
+	input {
+		background-color: #f7f7f7;
+		font-size: 0.8rem;
+		padding: 0.7rem 0.9rem;
+	}
+	button {
+		padding: 0.7rem 1.2rem;
+	}
+	.container {
+	}
+}
